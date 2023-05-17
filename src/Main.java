@@ -14,11 +14,11 @@ public class Main {
         // на экран.
 
         if (replenishment > from) {
-            int x = replenishment / bonusCoefficients + replenishment + was;
-            System.out.println("Общая сумма - " + x + " рублей");
+            int totalAmount = replenishment / bonusCoefficients + replenishment + was;
+            System.out.println("Общая сумма - " + totalAmount + " рублей");
         } else {
-            int x = replenishment + was;
-            System.out.println("Общая сумма - " + x + " рублей");
+            int totalAmount = replenishment + was;
+            System.out.println("Общая сумма - " + totalAmount + " рублей");
         }
     }
 }
